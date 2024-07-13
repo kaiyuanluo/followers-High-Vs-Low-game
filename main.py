@@ -1,7 +1,7 @@
-import random
-import art
 from game_data import data
 from replit import clear
+import random
+import art
 score = 0
 not_continue = True
 # print(art.logo)
@@ -30,4 +30,4 @@ while not_continue:
         clear()
         print(f"you are right! score = {score}.")
     else:
-        not_continue = Falsea
+        not_continue = False
